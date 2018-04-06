@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: gray;
+  margin: 0;
+}
+
+/* Nav Bar */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  background-color: lightgray;
+  width: 100%;
+}
+
+nav *:hover {
+  cursor: pointer;
+}
+
+#home {
+  font-size: 1.8em;
+  margin-left: 1em;
+  margin-right: auto;
+}
+
+#hamburger div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 1em;
+}
+
+/* Header */
+header {
+  background-color: white;
+  padding: 2em;
+  width: 100%;
+}
+
+#sign-up {
+  display: block;
+  border: none;
+  border-radius: 3px;
+  background-color: lightgray;
+  font-size: 1.6em;
+  /* margin: auto; */
+}
+
+#sign-up:hover {
+  cursor: pointer;
+}
+
+/* Sections */
+section {
+  text-align: center;
+  padding-bottom: 5em;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+section h3 {
+  margin: auto;
+}
+
+section button {
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  margin-top: 1em;
+  font-size: 1em;
+}
+
+section button:hover {
+  cursor: pointer;
+}
+
+section:nth-of-type(odd) {
+  background-color: lightgray;
+}
+
+section:nth-of-type(even) {
+  background-color: white;
+}
+
+/* Footer */
+footer {
+  font-size: 1.5em;
+  text-align: center;
+  background-color: white;
+}
