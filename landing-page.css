@@ -75,7 +75,8 @@ section button {
   border: none;
   border-radius: 3px;
   margin-top: 1em;
-  font-size: 1em;
+  font-size: 1.2em;
+  width: 80%;
 }
 
 section button:hover {
