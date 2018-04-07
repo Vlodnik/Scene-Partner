@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: sans-serif;
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+main {
+  padding-bottom: 1.5em;
+}
+
+/* Nav Bar */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  background-color: lightgray;
+  width: 100%;
+}
+
+nav *:hover {
+  cursor: pointer;
+}
+
+#home {
+  font-size: 1.8em;
+  margin-left: 25px;
+  margin-right: auto;
+}
+
+#hamburger div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 25px;
+}
+
+/* Signup Page */
+#account-creation, #login-form {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  margin: 8em auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+#account-creation input, #account-creation button, #login-form input, #login-form button {
+  margin-bottom: 1.2em;
+  width: 65%;
+  max-width: 200px;
+}
+
+#account-creation input, #login-form input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+#create, #login {
+  max-width: 400px;
+  height: 1.5em;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: white;
+  background-color: #00bddb;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: auto;
+  transition: background-color .3s;
+}
+
+#create:hover, #login:hover {
+  background-color: #00869b;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: white;
+  height: 1.5em;
+  width: 100%;
+}
